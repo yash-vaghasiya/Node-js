@@ -1,8 +1,8 @@
-module.exports={
-    x:20,
-    y:40,
+module.exports = {
+  x: 20,
+  y: 40,
 
-    z:function(){
-      return  10;
-    }
+  z: function () {
+    return 10;
+  }
 }
