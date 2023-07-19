@@ -17,4 +17,4 @@ let b = 0;
 setTimeout(() => {
     b = 20;
 })
-console.log(a + b)
+console.log(a + b);

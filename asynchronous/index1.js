@@ -1,13 +1,13 @@
 let a = 20;
 let b = 0;
 
-let writingdata = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
+let writingdata = new Promise((resolve, reject) => {
+    setTimeout(() => {
         resolve(30);
-    },2000);
+    }, 2000);
 });
 
-writingdata.then((data)=>{
+writingdata.then((data) => {
     b = data
-    console.log(a+b);
-})
+    console.log(a + b);
+});
